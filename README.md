@@ -39,3 +39,29 @@ As a Product Data Scientist at Instagram, measuring the success of the Instagram
     - Analyze user behavior patterns within the IGTV app, such as the time spent watching videos, the frequency of visits, and the paths users take through the platform.
 
 Success in the context of IGTV could vary depending on Instagram's specific goals and objectives for the product, such as increasing user engagement, retaining users, generating revenue, or competing effectively in the online video market. Therefore, it's essential to align the measurement approach with the product's strategic goals and iterate based on data-driven insights to drive continuous improvement.
+
+
+## **Question 2:**
+    - Option 2: Imagine you're working with Sprint, one of the biggest telecom companies in the USA. They're really keen on figuring out how many customers might decide to leave them in the coming months. Luckily, they've got a bunch of past data about when customers have left before, as well as info about who these customers are, what they've bought, and other things like that. So, if you were in charge of predicting customer churn, how would you go about using machine learning to make a good guess about which customers might leave? What steps would you take to create a machine learning model that can predict if someone's going to leave or not?
+
+1. # **Data collection**
+    - Collect the neccessary past data of all the customers from sprint telecom services and make sure to include the features that are relevant to the churn prediction. the data set can include demographics, usage patterns, and whether or not the user should be churned.
+
+2. # **Data processing**
+    - here clean and process the dataset. this includes handling missing values, encoding categorical values, scaling numerical features and feature engineering.
+
+3. # **Exploratory Data Analysis**
+    - Here we perform visualizations and analysing the dataset to get insights into the data. Look for patterns and correlations and anomalies that can inform our data modeling decisions. EDA helps to analyse the data properly and select relevant models features for the data.
+
+4. # **Model selection**
+    - Choose the appropriate machine learning model for the churn predictions.
+    Common models for churn prediction include logistic regression, decision trees, random forests, gradient boosting, and neural networks. The choice of model depends on the dataset and the problem's complexity.
+
+5. # **Model Training and Evaluation**
+    - We split the data into training and testing datasets and evaluate the choosen models. We shall use the appropriate evaluations for accuracy, precision, recall, F1-score, and ROC AUC to asses the models performance.
+
+6. # **Hyperparameter training**
+    - We may need to fine-tune the hyperparameters of our selected model to optimize its performance. Techniques like grid search or random search can be used for this purpose.
+
+7. # **Model deployment**
+    - Once we have a well-performing model, we can deploy it in a production environment, allowing the telecom company to use it for real-time or batch churn predictions.
